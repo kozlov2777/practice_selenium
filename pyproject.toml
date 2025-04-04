@@ -10,6 +10,7 @@ python = "^3.11"
 selenium = "^4.30.0"
 pytest = "^8.3.5"
 webdriver-manager = "^4.0.2"
+nrt-pytest-soft-asserts = "^1.1.3"
 
 
 [build-system]

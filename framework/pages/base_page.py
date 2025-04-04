@@ -166,3 +166,6 @@ class BasePage:
         """Прокручує сторінку до елемента"""
         element = self.find_element(locator, timeout)
         self.execute_script("arguments[0].scrollIntoView(true);", element)
+
+    def get_placeholder_text(self, locator):
+        return self.find_element(locator).get_attribute("placeholder")
